@@ -1,7 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+
 var fs = require("fs");
 var result = [];
+
 for (var i = 1; i <= 100; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
         result.push('BIGBANG');

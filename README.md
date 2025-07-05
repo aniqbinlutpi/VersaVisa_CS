@@ -14,15 +14,20 @@ The result is saved to `output.json`.
 
 ## Setup Instructions
 
-1. **Install dependencies** (if you don't have TypeScript globally):
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+2. **Install TypeScript globally (if not already installed):**
    ```bash
    npm install -g typescript
    ```
 
-2. **Run the script:**
+3. **Run the script:**
    ```bash
-   tsc bigbang.ts
-   node bigbang.js
+   npm run build
+   npm start
    ```
    This will generate `output.json` in the same directory.
 
