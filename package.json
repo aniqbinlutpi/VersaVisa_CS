@@ -1,0 +1,16 @@
+{
+  "name": "bigbang-generator",
+  "version": "1.0.0",
+  "description": "Generates an array from 1 to 100 with BIG, BANG, and BIGBANG replacements.",
+  "main": "bigbang.js",
+  "scripts": {
+    "build": "tsc bigbang.ts",
+    "start": "node bigbang.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.0.10",
+    "typescript": "^5.0.0"
+  }
+}
